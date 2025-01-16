@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ff6200;
+    font-family: "Poppins", serif;
+}
+
+header {
+    padding: 40px;
+    font-weight: 200;
+    font-size: 25px;
+    color: #fff;
+}
+
+a {
+    margin: 20px;
+}
+
+a:hover {
+    color: #000080;
+}
+
+button {
+    color: #fff;
+    background-color: #000080;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 200;
+    position: absolute;
+    right: 300px;
+}
+
+input {
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #000080;
+    margin: 5px;
+    border: 1px solid #000080;
+    position: absolute;
+    right: 80px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus {
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+}
+
+input:focus::placeholder {
+    color: #000080;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000080;
+}
+
+img {
+    width: 460px;
+    height: 500px;
+    padding: 40px 0 30px 60px;
+    display: inline-block;
+    position: relative;
+    left: 65px;
+    top: 130px;
+}
+
+section {
+    display: inline-block;
+    margin: 100px;
+
+h1 {
+    font-size: 35px;
+    color: #000080;
+    font-weight: 750;
+}
+
+h3 {
+    font-size: 25px;
+    color: #000080;
+    margin: 15px 0;
+}
+
+p {
+    width: 515px;
+    color: #000080;
+    margin-bottom: 15px;
+}
+
+
+.information {
+    text-align: left;
+    color: #fff;
+}
+
+.information:hover {
+    color: #000080;
+}
