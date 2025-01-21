@@ -110,9 +110,3 @@ p {
 .information:hover {
     color: #000080;
 }
-
-@media screen and(max-width:850px) {
-    a {
-        display: none;
-    }
-}
